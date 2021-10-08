@@ -1,3 +1,21 @@
-.box {
-  display: inline-flex;
+html,
+body,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+.duelists {
+  font-size: 60px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.duelist {
+  border: 1px solid black;
+  width: 26%;
+  margin: 3rem;
+  background-image: url(C:\Users\oshittu\Desktop\CSS Projects\flexbox-gallery-project-Bi-yi\Jett_icon.png);
 }
