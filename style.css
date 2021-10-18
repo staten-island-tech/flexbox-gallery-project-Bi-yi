@@ -12,12 +12,14 @@ body,
   text-align: center;
   justify-content: space-around;
   flex-wrap: wrap;
+  transition: 1s all ease;
+}
+
+.duelist:hover {
+  transform: scale(0.7rem);
 }
 .duelist {
   border: 1px solid black;
   width: 26%;
   margin: 3rem;
-}
-.duelist-img {
-  size: initial;
 }
