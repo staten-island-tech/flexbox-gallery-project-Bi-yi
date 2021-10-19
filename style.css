@@ -16,10 +16,183 @@ body,
 }
 
 .duelist:hover {
-  transform: scale(0.7rem);
+  transform: scale(0.7);
 }
 .duelist {
   border: 1px solid black;
   width: 26%;
   margin: 3rem;
+}
+.duelist2 {
+  border: 1px solid black;
+  width: 26%;
+  margin: 3rem;
+}
+.duelist2:hover {
+  -webkit-animation-name: duelist2;
+  animation-name: duelist2;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+@-webkit-keyframes duelist2 {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes duelist2 {
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes duelist3 {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+@keyframes duelist3 {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+}
+.duelist3 {
+  border: 1px solid black;
+  width: 26%;
+  margin: 3rem;
+}
+.duelist3:hover {
+  -webkit-animation-name: duelist3;
+  animation-name: duelist3;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+.duelist4 {
+  border: 1px solid black;
+  width: 26%;
+  margin: 3rem;
+}
+.duelist4:hover {
+  -webkit-transform: rotate(4deg);
+  transform: rotate(4deg);
+}
+.duelist5 {
+  border: 1px solid black;
+  width: 26%;
+  margin: 3rem;
+}
+.duelist5:hover {
+  -webkit-animation-name: duelist5;
+  animation-name: duelist5;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+@-webkit-keyframes duelist5 {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes duelist5 {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+.duelist6 {
+  border: 1px solid black;
+  width: 26%;
+  margin: 3rem;
+}
+.duelist6:hover {
+  transform: scale(0.7);
+}
+.duelist7 {
+  border: 1px solid black;
+  width: 26%;
+  margin: 3rem;
+}
+.duelist7:hover {
+  transform: scale(0.7);
+}
+.duelist8 {
+  border: 1px solid black;
+  width: 26%;
+  margin: 3rem;
+}
+.duelist8:hover {
+  transform: scale(0.7);
+}
+.duelist9 {
+  border: 1px solid black;
+  width: 26%;
+  margin: 3rem;
+}
+.duelist9:hover {
+  transform: scale(0.7);
 }
