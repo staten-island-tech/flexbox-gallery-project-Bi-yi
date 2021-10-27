@@ -32,21 +32,21 @@ body,
   transform: scale(0.7);
 }
 .duelist {
-  border: 1px solid black;
+  
   width: 26%;
   margin: 3rem;
   bo
 }
 .duelist2 {
-  border: 1px solid black;
+  
   width: 26%;
   margin: 3rem;
 }
 .duelist2:hover {
   -webkit-animation-name: duelist2;
   animation-name: duelist2;
-  -webkit-animation-duration: 0.3s;
-  animation-duration: 0.3s;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
   -webkit-animation-iteration-count: 1;
@@ -87,22 +87,22 @@ body,
   }
 }
 .duelist3 {
-  border: 1px solid black;
+  
   width: 26%;
   margin: 3rem;
 }
 .duelist3:hover {
   -webkit-animation-name: duelist3;
   animation-name: duelist3;
-  -webkit-animation-duration: 0.3s;
-  animation-duration: 0.3s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
   -webkit-animation-timing-function: linear;
   animation-timing-function: linear;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
 }
 .duelist4 {
-  border: 1px solid black;
+  
   width: 26%;
   margin: 3rem;
 }
@@ -111,15 +111,15 @@ body,
   transform: rotate(4deg);
 }
 .duelist5 {
-  border: 1px solid black;
+  
   width: 26%;
   margin: 3rem;
 }
 .duelist5:hover {
   -webkit-animation-name: duelist5;
   animation-name: duelist5;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
   -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: 1;
@@ -179,7 +179,7 @@ body,
   }
 }
 .duelist6 {
-  border: 1px solid black;
+  
   width: 26%;
   margin: 3rem;
 }
@@ -187,7 +187,7 @@ body,
   transform: scale(0.7);
 }
 .duelist7 {
-  border: 1px solid black;
+  
   width: 26%;
   margin: 3rem;
 }
@@ -195,7 +195,7 @@ body,
   transform: scale(0.7);
 }
 .duelist8 {
-  border: 1px solid black;
+  
   width: 26%;
   margin: 3rem;
 }
@@ -203,26 +203,15 @@ body,
   transform: scale(0.7);
 }
 .duelist9 {
-  border: 1px solid black;
+  
   width: 26%;
   margin: 3rem;
 }
 .duelist9:hover {
   transform: scale(0.7);
 }
-@media only screen 
-  and (min-device-width: 390px) 
-  and (max-device-width: 844px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-}
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+@media screen and (max-width: 844px){.duelists{orientation: portrait; margin: 4rem;}}
+  
+@media screen and (max-width: 1024px){text-align: center;}
 
-}
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) 
-  and (-webkit-min-device-pixel-ratio: 1) { 
-}
+@media screen and (max-width: 1600px){text-align: center; border-style: flex: ;;}
